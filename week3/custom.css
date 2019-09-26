@@ -1,0 +1,157 @@
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Bookman Old Style', monospace;
+  color: white;
+  background-image: url(image/daydreamer.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+h1{
+  color:inherit;
+  font-size: 60px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0 0 8px 0;
+  margin: 200px 2em 20px 2em;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+h3{
+  color: inherit;
+  text-align: center;
+  font-family: 'Bookman Old Style', monospace;
+
+  font-size: 30px;
+  padding-bottom: 35px;
+}
+
+h4{
+  color: inherit;
+  padding: 0 40px 0 40px;
+
+}
+#identity{
+  font-family: 'Harrington', monospace;
+  font-style: italic;
+}
+
+.menu{
+  width: auto;
+  color: inherit;
+  text-align: center;
+  margin: 0 2.5em 0 2.5em;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+p{
+color: inherit;
+text-indent: 30px;
+font-size: 20px;
+padding: 10px 15px 10px 15px;
+margin: 10px;
+}
+
+a:link{
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+  color: inherit;
+  border-style: dotted;
+  border-color: inherit;
+  padding: 5px;
+}
+
+a:visited{
+color: rgb(254, 230, 173);
+}
+
+a.picture:hover{
+  border-style: none;
+}
+
+.title{
+font-family: 'Bookman Old Style', monospace;
+font-style: normal;
+margin: 25px auto 5px auto;
+
+}
+
+.school-name{
+padding: auto 10px auto 10px;
+text-indent: 0;
+font-size: 25px;
+}
+
+#focus{
+  margin: 70px auto 90px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#title-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text{
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 40px auto auto auto;
+  width: 500px;
+}
+
+#interest-text{
+  display:flex;
+  margin: 40px auto auto 40px;
+}
+
+image{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  margin: auto 50px auto 50px;
+}
+
+#game, #house{
+  display: flex;
+  flex-direction: column-reverse;
+}
+#novel{
+  display: flex;
+  flex-direction: column;
+}
+
+.image-group{
+  display: flex;
+  flex-direction: row;
+  margin: 50px 2em 80px 2em;
+  justify-content: center;
+}
+
+#picture-text{
+  text-align: center;
+  font-size: 25px;
+  text-indent: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 15px 10px 15px;
+}
+
+#email{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+}
