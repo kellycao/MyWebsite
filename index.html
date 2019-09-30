@@ -7,83 +7,256 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href=custom.css>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 </head>
 ​
+<!-- <style>
+  body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Bookman Old Style', monospace;
+    color: white;
+    background-image: url(image/lighthouse5.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
-<!--
-Click on the link and all the other items move?
-Color in body?
--->
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0 0 8px 0;
+    margin: 200px 2em 20px 2em;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 35px;
+  }
+
+  h4 {
+    padding: auto;
+    margin: 30px auto 40px auto;
+    font-size: 25px;
+
+  }
+
+  #identity {
+    font-family: 'Harrington', monospace;
+    font-style: italic;
+  }
+
+  .rolling-menu {
+    position: fixed;
+    left: 5px;
+    top: 50%;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 3px 5px 3px 5px;
+    border-radius: 10%;
+    text-align: center;
+  }
+
+h5{
+  color: rgb(37,51,80);
+  margin: 10px;
+  font-size: 15px;
+  border-style: dotted;
+  border-width: 0 0 2px 0;
+}
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .menu {
+    width: auto;
+    margin: 0 2.5em 0 2.5em;
+  }
+
+  p {
+    text-indent: 30px;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+  }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(244, 229, 198);
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a.picture:hover {
+    border-style: none;
+  }
+
+  a.menu-link:link {
+    color: rgb(37,51,80);
+  }
+
+
+  .title {
+    font-style: normal;
+    margin: 100px auto 10px auto;
+  }
+
+  .school-name {
+    padding: auto 10px auto 10px;
+    text-indent: 0;
+    font-size: 25px;
+  }
+
+
+  .main-text {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 40px 20px auto 20px;
+    width: 500px;
+  }
+
+
+  image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    margin: auto 50px auto 50px;
+  }
+
+  .image-group {
+    margin: 50px 2em 80px 2em;
+  }
+
+  #picture-text {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 25px;
+    text-indent: 0;
+    padding: 10px;
+  }
+
+  #email {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+  }
+
+  footer {
+    font-family: 'Dubai Medium', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+  }
+</style> -->
+
+
+
 <body>
+  <div>
+    <h1>Yuxin Cao</h1>
+    <h3 id="identity">Chasing the Light</h3>
 
-  <h1>Yuxin Cao</h1>
-  <h3 id="identity">An Enthusiastic Daydreamer</h3>
-
-<div class="menu">
-  <h4><a href="#education">Education</a></h4>
-  <h4><a href="#interest">Interests</a></h4>
-  <h4><a href="#dream">My Dreams</a></h4>
-  <h4><a href="#contact">Contact</a></h4>
-
-</div>
-
-<div id="focus">
-<div id="title-text">
-      <h3 class="title" id="education">Education</h3>
-    <div class="main-text">
-      <p class="school-name">Teachers College, Columbia University</p>
-      <p>MA in Instructional Technology and Media</p>
-      <p>Sept 2019 - now, New York, USA</p>
-      <p class="school-name">Fudan University</p>
-      <p>BA in English Language and Literature</p>
-      <p>Sept 2014 - June 2019, Shanghai, China</p>
+    <div class="row menu">
+      <h4><a href="#education">Education</a></h4>
+      <h4><a href="#interest">Interests</a></h4>
+      <h4><a href="#light">My Lights</a></h4>
+      <h4><a href="#contact">Contact</a></h4>
     </div>
   </div>
 
-  <div id="title-text">
-        <h3 class="title" id="interest">Interests</h3>
-        <div class="main-text" id="interest-text">
+  <div class="rolling-menu">
+    <h5><a href="#education" class="menu-link">Education</a></h5>
+    <h5><a href="#interest" class="menu-link">Interests</a></h5>
+    <h5><a href="#light" class="menu-link">My Lights</a></h5>
+    <h5><a href="#contact" class="menu-link">Contact</a></h5>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <h3 class="title" id="education">Education</h3>
+      <div class="main-text">
+        <p class="school-name">Teachers College, Columbia University</p>
+        <p>MA in Instructional Technology and Media</p>
+        <p>Sept 2019 - now, New York, USA</p>
+        <p class="school-name">Fudan University</p>
+        <p>BA in English Language and Literature</p>
+        <p>Sept 2014 - June 2019, Shanghai, China</p>
+      </div>
+    </div>
+
+
+    <div class="column">
+      <h3 class="title" id="interest">Interests</h3>
+      <div class="main-text">
         <form action="/submit-interests">
           <p class="school-name">Following are my interests. Please tick the boxes to explore more:</p>
-            <p><label for "piano"><input id="piano" type="checkbox" name="interests">Piano</label></p>
-            <p><label for "guitar"><input id="guitar" type="checkbox" name="interests">Guitar</label></p>
-            <p><label for "reading"><input id="reading" type="checkbox" name="interests">Reading</label></p>
-            <p><label for "roller blading"><input id="roller blading" type="checkbox" name="interests">Roller Blading</label></p>
-            <p><input type="text" placeholder="Enter your unique interests" style="width:200px;height:20px">
+          <p><label for "piano"><input id="piano" type="checkbox" name="interests">Piano</label></p>
+          <p><label for "guitar"><input id="guitar" type="checkbox" name="interests">Guitar</label></p>
+          <p><label for "reading"><input id="reading" type="checkbox" name="interests">Reading</label></p>
+          <p><label for "roller blading"><input id="roller blading" type="checkbox" name="interests">Roller Blading</label></p>
+          <p><input type="text" placeholder="Enter your unique interests" style="width:200px;height:20px">
             <button type="submit">Submit</button></p>
         </form>
       </div>
     </div>
-</div>
+  </div>
 
-<h3 class="title" id="dream">About My Dreams</h3>
+  <div>
+    <h3 class="title" id="light">My Lights</h3>
+    <div class="row image-group">
+      <div class="column-reverse">
+        <p id="picture-text">My games</p>
+        <a href="#" class="picture"><img src="image/game.png" title="My Portfolio" alt="My Portfolio"></a>
+      </div>
+      <div class="column">
+        <p id="picture-text">My novels</p>
+        <a href="#" class="picture"><img src="image/game2.png" title="My Novel" alt="My Novel"></a>
+      </div>
+      <div class="column-reverse">
+        <p id="picture-text">My house</p>
+        <a href="#" class="picture"><img src="image/house.jpg" title="My House" alt="My House"></a>
+      </div>
+    </div>
+  </div>
 
-<!--propoerty in class?-->
-<div class="image-group">
-  <div id="game">
-  <p id="picture-text">To create my own games</p>
-<a href="#" class="picture"><img src="image/game.png" title="My Portfolio" alt="My Portfolio"></a>
-</div>
-<div id="novel">
-  <p id="picture-text">To be a novelist</p>
-  <a href="#" class="picture"><img src="image/game2.png" title="My Novel" alt="My Novel"></a>
-</div>
-<div id="house">
-  <p id="picture-text">To decorate my house in ancient Chinese style</p>
-  <a href="#" class="picture"><img src="image/house.jpg" title="My House" alt="My House"></a>
-</div>
-</div>
+  <div>
+    <h3 class="title" id="contact">Contact</h3>
+    <p id="email" style="line-height: 40px;"><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/yuxin-cao-82512a147/" target="_blank">https://www.linkedin.com/in/yuxin-cao-82512a147/</a><br>
+      <i class="far fa-envelope-open"></i> Email: <a href="mailto:kellyc0318@gmail.com" target="_blank">kellyc0318@gmail.com</a></p>
+    <!--padding?-->
+  </div> ​
 
+  <footer>
+    <i class="far fa-copyright"></i> 2019 Created by Yuxin
+  </footer>
 
-
-<h3 class="title" id="contact">Contact</h3>
-
-<p id="email" style="line-height: 40px;">LinkedIn: <a href="https://www.linkedin.com/in/yuxin-cao-82512a147/" target="_blank">https://www.linkedin.com/in/yuxin-cao-82512a147/</a><br>
-Email: <a href="mailto:kellyc0318@gmail.com" target="_blank">kellyc0318@gmail.com</a></p>
-
-<!--padding?-->
-
-​
 </body>
+
 </html>
